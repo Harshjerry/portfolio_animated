@@ -1,0 +1,157 @@
+@import "../../app.scss";
+
+.parallax2{
+    width: 100%;
+     height: 100%;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+}
+
+.sky{
+  background-image: url("/sky.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.city{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.left{
+  background-image: url("/left-city.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+.center{
+  background-image: url("/center-city.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.right{
+  background-image: url("/right-city.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.river{
+  background-image: url("/water.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 4;
+}
+.train {
+  background-image: url("/train.png");
+  background-size: cover;  // Change this property
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  left: -300px; // Default positioning for larger screens
+  bottom: 10px;
+  @include mobile {
+  left:-150px; // Adjust the left positioning for mobile view
+    background-size: cover;
+  // Reset the background-size for mobile view if necessary
+  bottom:60px;
+  background-image: url("/train2.png");
+
+
+  }
+}
+
+.bridge{
+  background-image: url("/rail.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 6;
+}
+
+.hills{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  @include mobile{
+display: none;
+  }
+}
+.leftHill{
+  background-image: url("/hill-left-1.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+
+}
+.rightHill{
+  background-image: url("/hill-right-1.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.moon{
+  background-image: url("/hill-right-1.png");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.text{height: 200px;
+  width: 100%;
+  bottom:-50px;
+  display: flex;
+  position: absolute;
+  z-index: 99;
+  padding-left: 200px;
+
+@include mobile{
+  padding-left:0px;
+  justify-content: center;
+  text-align: center;
+}
+
+  h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 800;
+
+    @include mobile {
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+
+}
