@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapZot Insights</title>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .email-container {
+            max-width: 700px; /* Made the container wider */
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #814ddd;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: bold;
+        }
+        .intro {
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        .intro span {
+            color: #814ddd;
+        }
+        .stats-container {
+            padding: 20px;
+            display: grid;
+            gap: 15px;
+        }
+        .stat-box {
+            display: flex;
+            background-color: #814ddd;
+            color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .stat-text {
+            flex: 0 0 55%; /* Text takes 55% */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .stat-text h2 {
+            margin: 0;
+            font-size: 28px;
+            font-family: 'Proxima Nova', sans-serif;
+            font-weight: bold;
+        }
+        .stat-text p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            font-weight: lighter;
+        }
+        .stat-image {
+            flex: 0 0 45%; /* Image takes 45% */
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .stat-image img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Ensures the image fits within the box */
+        }
+        .cta {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .cta a {
+            text-decoration: none;
+            background-color: #814ddd;
+            color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #5e9ca0;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #999;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Here’s How Your Team Is Making Smarter Moves with MapZot.AI!</h1>
+        </div>
+        <!-- Intro Section -->
+        <div class="intro">
+            <p>Your team's progress has been <span>remarkable</span>! Let’s take a closer look at the numbers:</p>
+        </div>
+        <!-- Stats Section -->
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-text">
+                    <h2>$10M</h2>
+                    <p>Property value analyzed</p>
+                </div>
+                <div class="stat-image">
+                    <img src="images/well.png" alt="Property Image">
+                </div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-text">
+                    <h2>$20M</h2>
+                    <p>Revenue forecasts unlocked</p>
+                </div>
+                <div class="stat-image">
+                    <img src="placeholder2.jpg" alt="Revenue Image">
+                </div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-text">
+                    <h2>120K</h2>
+                    <p>Real estate parcels scanned</p>
+                </div>
+                <div class="stat-image">
+                    <img src="placeholder3.jpg" alt="Real Estate Image">
+                </div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-text">
+                    <h2>9</h2>
+                    <p>Prime locations recommended</p>
+                </div>
+                <div class="stat-image">
+                    <img src="placeholder4.jpg" alt="Locations Image">
+                </div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-text">
+                    <h2>15</h2>
+                    <p>High-impact opportunities identified</p>
+                </div>
+                <div class="stat-image">
+                    <img src="placeholder5.jpg" alt="Opportunities Image">
+                </div>
+            </div>
+        </div>
+        <!-- Call-to-Action -->
+        <div class="cta">
+            <a href="#">View Your Dashboard</a>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            Let’s keep winning together! 🏆 <br> The MapZot.AI Team
+        </div>
+    </div>
+</body>
+</html>

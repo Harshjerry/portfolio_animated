@@ -17,24 +17,24 @@ const Parallax2 = () => {
 
   return (
     <div
-      className="parallax"    ref={ref} >
-    <div  className="sky"> </div>
-                                <div  className="city">
-                                       <div  className="left"> </div>
-                                       <div  className="center"> </div>
-                                       <div  className="right"> </div>
-                                </div>
-                                                                          <div  className="river"> </div>
-                                                  <motion.div style={{ x: yBg }} className="train"> </motion.div>
-                                          <div  className="bridge"> </div>
-<div className="hills">
-<div className="leftHill"></div>
-<div className="rightHill"></div>
-</div>
-<motion.div style={{ y: yText }}  className="text">
-<h1 >Welcome</h1>
-</motion.div>
-                                 </div>
+      className="parallax" ref={ref} >
+      <div className="sky"> </div>
+      <div className="city">
+        <div className="left"> </div>
+        <div className="center"> </div>
+        <div className="right"> </div>
+      </div>
+      <div className="river"> </div>
+      <motion.div style={{ x: yBg }} className="train"> </motion.div>
+      <div className="bridge"> </div>
+      <div className="hills">
+        <div className="leftHill"></div>
+        <div className="rightHill"></div>
+      </div>
+      <motion.div style={{ y: yText }} className="text">
+        <h1 >Welcome</h1>
+      </motion.div>
+    </div>
   );
 };
 

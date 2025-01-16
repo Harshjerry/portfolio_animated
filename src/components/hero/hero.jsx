@@ -47,15 +47,15 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>GOURAVI SINGH</motion.h2>
+          <motion.h2 variants={textVariants}>SAKSHI PATHAK</motion.h2>
           <motion.h1 variants={textVariants}>
             Web developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
           <motion.button variants={textVariants} initial="initial" animate="animate" whileHover="hover" whileTap="tap">
-          <a href="https://www.youtube.com/@Gouravi_10" target="_blank" rel="noopener noreferrer">YouTube</a>
+          <a href="https://github.com/sakshepathak" target="_blank" rel="noopener noreferrer">Github</a>
     </motion.button>
-            <motion.button variants={textVariants}> <a href="https://www.linkedin.com/in/gouravi-singh-barhath-153b54256/" target="_blank" rel="noopener noreferrer">Linkedin</a></motion.button>
+            <motion.button variants={textVariants}> <a href="https://www.linkedin.com/in/sakshi-pathak-681077260/" target="_blank" rel="noopener noreferrer">Linkedin</a></motion.button>
           </motion.div>
           <motion.img
 variants={textVariants}

@@ -18,7 +18,7 @@ const Fishy = () => {
 
       <motion.div style={{ x: yText }} className="mashi"></motion.div>
       <div className="lekh">
-        <h1>An   Information Technology student at Indian Institute of Information Technology Gwalior whose calling is turning ideas into real-life products</h1>
+        <h1>An   Information Technology student at Kalinga Institute of Industrial Technology ,Odhisa whose calling is turning ideas into real-life products</h1>
       </div>
     </div>
   );
